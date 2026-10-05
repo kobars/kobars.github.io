@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TurboShelf Support</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="icon.png">
+</head>
+<body>
+<main>
+<header><img src="icon.png" alt=""><a href="index.html">TurboShelf</a></header>
+<h1>Support</h1>
+<p class="lead">Questions, problems or ideas: write to <a href="mailto:kobar.sept@gmail.com">kobar.sept@gmail.com</a>. Please include your macOS version and your TurboShelf version.</p>
+
+<h2>Where is TurboShelf?</h2>
+<p>TurboShelf lives in the menu bar. It has no Dock icon. Press <kbd>⌥ Space</kbd> in any app to open it, or click the menu bar icon and choose <strong>Open TurboShelf</strong>.</p>
+
+<h2>Return does not paste</h2>
+<p>Pasting into another app needs the Accessibility permission. The Save Copy and Link shortcuts need it too. Click the menu bar icon, choose <strong>Set Up Save Copy…</strong>, then <strong>Continue</strong>. macOS asks for permission. Choose <strong>Open System Settings</strong> and turn on <strong>TurboShelf</strong> in <strong>Privacy &amp; Security → Accessibility</strong> (on macOS 27: <strong>Device Control and Data Access</strong>). If you closed the macOS dialog, choose <strong>Open System Settings</strong> in the TurboShelf window. When TurboShelf shows <strong>Access confirmed</strong>, press <kbd>⌥ Space</kbd> in the app where you want to paste.</p>
+<p>If TurboShelf is already turned on and access is still not confirmed, or <kbd>Return</kbd> still does not paste, quit TurboShelf from its menu bar menu and open it again from the Applications folder. Without the permission, <kbd>Return</kbd> does not paste, and <kbd>⌘ Return</kbd> copies the item. Then paste it yourself with <kbd>⌘ V</kbd>.</p>
+
+<h2>How do I save items?</h2>
+<p>Drag text, images or files onto the TurboShelf panel. In most apps you can also select text and choose <strong>Services → Save Copy to TurboShelf</strong> from the app menu. The + menu in the panel saves new text or links a file or folder. With the permission above, press <kbd>⌥ C</kbd> to save the selection in any app, or press <kbd>⌥ L</kbd> in Finder to link the selected files and folders.</p>
+<p>When you save or link items in your Desktop, Documents or Downloads folder with <kbd>⌥ C</kbd> or <kbd>⌥ L</kbd>, macOS can ask once whether TurboShelf can access that folder. The dialog says: “TurboShelf saves a copy of, or a link to, the files and folders you choose with Save Copy or Link.” If you chose <strong>Don’t Allow</strong>, drag the items onto the panel to save a copy, or use <strong>+ → Link File…</strong> or <strong>Link Folder…</strong> in the panel. Or turn on <strong>TurboShelf</strong> in <strong>System Settings → Privacy &amp; Security → Files &amp; Folders</strong>.</p>
+
+<h2>What does the Free limit count?</h2>
+<p>Free keeps up to 25 saved items with every feature. Files in a linked folder do not count. Saving the same item again does not count. When you save item 26, TurboShelf offers TurboShelf Pro. Your existing items always stay usable.</p>
+
+<h2>Restore TurboShelf Pro</h2>
+<p>Click the menu bar icon and choose <strong>Restore Purchases</strong>. The TurboShelf Pro window also has <strong>Restore Purchases</strong>. Use the same Apple Account that bought TurboShelf Pro.</p>
+
+<h2>Change the keyboard shortcuts</h2>
+<p>Click the menu bar icon and choose <strong>Keyboard Shortcuts…</strong>.</p>
+
+<h2>Move items from the earlier TurboShelf</h2>
+<p>If you used the earlier, directly downloaded TurboShelf, quit it first. Then click the menu bar icon and choose <strong>Import Library from Previous TurboShelf…</strong>. Choose the folder <code>~/Library/Application Support/com.shelf.prototype</code> (press <kbd>⇧⌘G</kbd> to type the path) and click <strong>Import</strong>. If you have linked files, allow access to the folder that contains them. The earlier library is only read, and you can import again without duplicates.</p>
+
+<h2>Remove TurboShelf and its data</h2>
+<p>Quit TurboShelf, delete the app, and delete its folder <code>~/Library/Containers/com.kobars.turboshelf</code>. Removing TurboShelf never deletes your original files.</p>
+
+<footer><a href="index.html">TurboShelf</a><a href="privacy.html">Privacy Policy</a></footer>
+</main>
+</body>
+</html>
